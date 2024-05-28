@@ -1,0 +1,17 @@
+/* src/components/RMGButton.css */
+.RMGButton {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.RMGButton:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.RMGButton:focus {
+  outline: none;
+}

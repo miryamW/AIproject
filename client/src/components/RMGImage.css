@@ -1,0 +1,30 @@
+/* עיצוב עבור תמונה */
+.RMGImage {
+    max-width: 100%; /* התמונה לא תעבור את רוחב ההורה שלה */
+    height: auto; /* גובה התמונה יותאם אוטומטית לרוחב */
+    display: block; /* מיועד להסרת הרווח שמייצרים התמונות */
+    margin: 0 auto; /* מרכוז התמונה באמצעות מרווחים מסביב */
+  }
+  
+  /* עיצוב עבור תמונה עם גבול */
+  .RMGImage.with-border {
+    border: 2px solid #ccc; /* הוספת גבול מודגש לתמונה */
+    border-radius: 5px; /* עיגול קצוות הגבול */
+    padding: 5px; /* מרווח פנימי מסביב לתמונה */
+  }
+  
+  /* עיצוב עבור תמונה עם פינות מעוגלות */
+  .RMGImage.rounded {
+    border-radius: 50%; /* עיגול קצוות התמונה */
+  }
+  
+  /* עיצוב עבור תמונה עם צל */
+  .RMGImage.with-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* הוספת צל לתמונה */
+  }
+  
+  /* עיצוב עבור תמונה עם עמידות גבוהה */
+  .RMGImage.high-quality {
+    image-rendering: -webkit-optimize-contrast; /* מיטול עצמת התמונה */
+  }
+  

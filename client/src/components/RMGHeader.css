@@ -1,0 +1,52 @@
+/* עיצוב עבור כותרות מסוג h1 עד h6 */
+.RMGHeader h1,
+.RMGHeader h2,
+.RMGHeader h3,
+.RMGHeader h4,
+.RMGHeader h5,
+.RMGHeader h6 {
+  font-family: Arial, sans-serif; /* שימוש בגופן סנס סריף */
+  font-weight: bold; /* טקסט מודגש */
+}
+
+/* עיצוב עבור כותרת h1 */
+.RMGHeader h1 {
+  font-size: 32px; /* גודל טקסט */
+  color: #333; /* צבע טקסט */
+  margin-bottom: 20px; /* מרווח תחתון */
+}
+
+/* עיצוב עבור כותרת h2 */
+.RMGHeader h2 {
+  font-size: 28px; /* גודל טקסט */
+  color: #555; /* צבע טקסט */
+  margin-bottom: 18px; /* מרווח תחתון */
+}
+
+/* עיצוב עבור כותרת h3 */
+.RMGHeader h3 {
+  font-size: 24px; /* גודל טקסט */
+  color: #777; /* צבע טקסט */
+  margin-bottom: 16px; /* מרווח תחתון */
+}
+
+/* עיצוב עבור כותרת h4 */
+.RMGHeader h4 {
+  font-size: 20px; /* גודל טקסט */
+  color: #999; /* צבע טקסט */
+  margin-bottom: 14px; /* מרווח תחתון */
+}
+
+/* עיצוב עבור כותרת h5 */
+.RMGHeader h5 {
+  font-size: 18px; /* גודל טקסט */
+  color: #aaa; /* צבע טקסט */
+  margin-bottom: 12px; /* מרווח תחתון */
+}
+
+/* עיצוב עבור כותרת h6 */
+.RMGHeader h6 {
+  font-size: 16px; /* גודל טקסט */
+  color: #ccc; /* צבע טקסט */
+  margin-bottom: 10px; /* מרווח תחתון */
+}

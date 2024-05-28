@@ -1,0 +1,32 @@
+/* עיצוב לכפתור */
+.RMGButton {
+    background-color: #2196F3; /* צבע רקע */
+    color: #ffffff; /* צבע טקסט */
+    padding: 8px 16px; /* מרווחים פנימיים */
+    border-radius: 4px; /* פינות מעוגלות */
+    cursor: pointer; /* סמן העכבר */
+    transition: background-color 0.3s; /* אנימציה */
+    border: none; /* אין גבולות */
+  }
+  
+  .RMGButton:hover {
+    background-color: #0d8eff; /* צבע רקע בעת הרחקת העכבר */
+  }
+  
+  .RMGButton:focus {
+    outline: none; /* הסרת הקווים המסולסלים סביב הכפתור */
+  }
+  
+  /* עיצוב לתיבת קלט */
+  .RMGInput {
+    padding: 8px 12px; /* מרווחים פנימיים */
+    border: 1px solid #ccc; /* גבול */
+    border-radius: 4px; /* פינות מעוגלות */
+    outline: none; /* הסרת הקווים המסולסלים סביב התיבה */
+    transition: border-color 0.3s; /* אנימציה */
+  }
+  
+  .RMGInput:focus {
+    border-color: #0d8eff; /* צבע גבול בעת קליק על התיבה */
+  }
+  
